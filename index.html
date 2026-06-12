@@ -167,7 +167,7 @@
   }
   .trust-badge::before { content: '✓'; color: var(--cyan); font-weight: 700; font-size: 1rem; }
   .scroll-hint {
-    position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%);
+    position: absolute; bottom: 2.5rem; right: 2rem; left: auto; transform: none;
     display: flex; flex-direction: column; align-items: center; gap: 0.5rem;
     opacity: 0; animation: fadeUp 0.9s var(--ease-out) 1.8s forwards;
   }
@@ -435,7 +435,7 @@
     .btn-primary, .btn-secondary { width: 100%; max-width: 300px; text-align: center; padding: 0.9rem 1.5rem; font-size: 1rem; }
     .trust-badges { gap: 1rem; }
     .trust-badge { font-size: 0.72rem; letter-spacing: 0.03em; }
-    .scroll-hint { bottom: 1.5rem; }
+    .scroll-hint { bottom: 1.5rem; right: 1.25rem; }
 
     /* ── Before/After ── */
     .impact-grid { grid-template-columns: 1fr; gap: 2.5rem; }
@@ -681,7 +681,7 @@
     </div>
     <div class="disclaimer-box reveal">
       <p><strong>Please Note:</strong> Requesting an estimate does <strong>not</strong> require payment and does <strong>not</strong> automatically confirm your appointment. Your selected time slot is held as a temporary reservation while your estimate is being prepared.</p>
-      <p style="margin-top:0.75rem">Once you receive your personalized estimate, you will have <strong>6 hours to review and approve it.</strong> If the estimate is not approved within that window, your reserved time slot will be released and made available for other clients. We appreciate your prompt response and will always do our best to accommodate your preferred schedule.</p>
+
     </div>
   </div>
 </section>
